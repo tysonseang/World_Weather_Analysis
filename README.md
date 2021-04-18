@@ -6,7 +6,13 @@ For this project, I am retrieving and analyzing data pulled through two applicat
 
 To complete this task, I used Jupyter Notebook and CityPy to collect a list of nearby cities from 2,000 randomly generated latitude and longitude coordinates from around the world. 
 
-Next, I performed requests on the OpenWeather API to retreive weather data in JavaScript Object Notation (JSON) format from these cities. This weather data was then added to a Pandas DataFrame in Jupyter Notebook. A statistical analysis was conducted with the SciPy library, and matplotlib was used to create a series of scatter plots that visually and statistically tested the relationship between latitude and a variety of weather parameters, such as max temperature, humidity, cloudiness, and wind speed. 
+Next, I performed requests on the OpenWeather API to retreive weather data from these cities in JavaScript Object Notation (JSON) format. This weather data was then added to a Pandas DataFrame in Jupyter Notebook. A statistical analysis was conducted with the SciPy library, and matplotlib was used to create a series of scatter plots that visually and statistically tested the relationship between latitude and a variety of weather parameters, such as max temperature, humidity, cloudiness, and wind speed. An example plot of city latitude vs max temperatue shown below, as well as linear regressions for the northern and southern hemispheres.
+
+![Latitude v. Max Temp](https://github.com/tysonseang/World_Weather_Analysis/blob/main/weather_data/Fig1.png)
+
+![Northern Hemisphere](https://github.com/tysonseang/World_Weather_Analysis/blob/main/weather_data/Fig1.png)
+
+![Southern Hemisphere](https://github.com/tysonseang/World_Weather_Analysis/blob/main/weather_data/Fig1.png)
 
 I then wrote a script that asks users to provide input statements for their desired mininum and maximum temperatures to provide a list of eligible cities for their next vacation. Using Google API integrations, I then provided a list of the closest hotels within 5,000 meters. This hotel and weather data was then added to a market layer and plotted on Google Maps as shown in the screenshot below.
 
