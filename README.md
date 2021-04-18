@@ -10,11 +10,11 @@ Next, I performed requests on the OpenWeather API to retreive weather data from 
 
 ![Latitude v. Max Temp](https://github.com/tysonseang/World_Weather_Analysis/blob/main/weather_data/Fig1.png)
 
-![Northern Hemisphere](https://github.com/tysonseang/World_Weather_Analysis/blob/main/weather_data/Fig1.png)
+![Northern Hemisphere](https://github.com/tysonseang/World_Weather_Analysis/blob/main/weather_data/Northern_Hemisphere_Temp_Lat.png)
 
-![Southern Hemisphere](https://github.com/tysonseang/World_Weather_Analysis/blob/main/weather_data/Fig1.png)
+![Southern Hemisphere](https://github.com/tysonseang/World_Weather_Analysis/blob/main/weather_data/Southern_Hemisphere_Temp_Lat.png)
 
-I then wrote a script that asks users to provide input statements for their desired mininum and maximum temperatures to provide a list of eligible cities for their next vacation. Using Google API integrations, I then provided a list of the closest hotels within 5,000 meters. This hotel and weather data was then added to a market layer and plotted on Google Maps as shown in the screenshot below.
+I then wrote a script that asks users to provide input statements for their desired mininum and maximum temperatures to provide a list of eligible cities for their next vacation. Using Google API integrations, I then provided a list of the closest hotels within 5,000 meters. This hotel and weather data was then added to a marker layer and plotted on Google Maps as shown in the screenshot below.
 
 ![Vacation Map](https://github.com/tysonseang/World_Weather_Analysis/blob/main/Vacation_Search/WeatherPy_vacation_map.png)
 
@@ -22,6 +22,6 @@ Next, as an example, I selected four cities in India to create a hypothetical va
 
 ![Travel Map](https://github.com/tysonseang/World_Weather_Analysis/blob/main/Vacation_Itinerary/WeatherPy_travel_map_markers.png)
 
-The trip would start in Madras, and pass through Sirsi, Bhalki, and Kavali before returning to Madras. These cities were then added to a directions layer and driving directions were plotted on Google Maps.
+The trip would start in Madras, and pass through Sirsi, Bhalki, and Kavali before returning to the starting city. These locations were then added to a directions layer to plot driving directions on Google Maps.
 
 ![Travel Directions Map](https://github.com/tysonseang/World_Weather_Analysis/blob/main/Vacation_Itinerary/WeatherPy_travel_map.png)
