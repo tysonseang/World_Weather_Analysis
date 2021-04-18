@@ -10,12 +10,12 @@ Next, I performed requests on the OpenWeather API to retreive weather data in Ja
 
 I then wrote a script that asks users to provide input statements for their desired mininum and maximum temperatures to provide a list of eligible cities for their next vacation. Using Google API integrations, I then provided a list of the closest hotels within 5,000 meters. This hotel and weather data was then added to a market layer and plotted on Google Maps as shown in the screenshot below.
 
-******ADD SCREENSHOT OF MAPS LAYER HERE** ******
+![Vacation Map](https://github.com/tysonseang/World_Weather_Analysis/blob/main/Vacation_Search/WeatherPy_vacation_map.png)
 
 Next, as an example, I selected four cities in India to create a hypothetical vacation itenerary. 
 
-*****Add screenshot of four cities here ********
+![Travel Map](https://github.com/tysonseang/World_Weather_Analysis/blob/main/Vacation_Itinerary/WeatherPy_travel_map_markers.png)
 
 The trip would start in Madras, and pass through Sirsi, Bhalki, and Kavali before returning to Madras. These cities were then added to a directions layer and driving directions were plotted on Google Maps.
 
-*******ADD SCREENSHOT OF directions layer here********
+![Travel Directions Map](https://github.com/tysonseang/World_Weather_Analysis/blob/main/Vacation_Itinerary/WeatherPy_travel_map.png)
